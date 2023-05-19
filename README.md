@@ -1,5 +1,6 @@
 # LectorRFID
 Lector de ID de tarjetas RFID con Arduino Uno.
+
 Este programa permite reconocer el ID de una tarjeta o llavero RFID.
 
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
