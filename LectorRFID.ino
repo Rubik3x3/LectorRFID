@@ -1,5 +1,4 @@
-//Proyecto empezado el 19 de Noviembre de 2021
-
+//19/09/2021
 #include <SPI.h>
 #include <MFRC522.h>
 
@@ -17,7 +16,7 @@ void printArray(byte *buffer, byte bufferSize) {
 }
 void setup()
 {
-   Serial.print("SDSJAJDS");
+   Serial.print("Iniciado");
    Serial.begin(9600);    
    SPI.begin();        
    lectorRFID.PCD_Init();    
@@ -36,7 +35,6 @@ void loop()
          Serial.println();
          
          //Finaliza
-         
          lectorRFID.PICC_HaltA();
       }
    }
